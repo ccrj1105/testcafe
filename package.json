@@ -7,7 +7,7 @@
     "test:firefox": "testcafe firefox ./test --hostname 127.0.0.1 --skip-js-errors --reporter html",
     "test:chrome:5": "testcafe -c 5 chrome --hostname 127.0.0.1 --skip-js-errors ./test  --reporter html:C:/Users/cristian/testCafe/index.html ",
     "test:chrome": "testcafe chrome ./test --hostname 127.0.0.1 --skip-js-errors --skip-js-errors  --reporter html:../testCafe/index.html",
-    "test:chrome:pruebahtlm": "testcafe chrome ./test --hostname 127.0.0.1 --skip-js-errors --skip-js-errors  --reporter cucumber-json:../testCafe/index.json --reporter-app-name='My App' --reporter-app-version='x.y.z'",
+    "test:chrome:pruebahtlm": "testcafe chrome ./test --hostname 127.0.0.1 --skip-js-errors --skip-js-errors  --reporter cucumber-json:../testCafe/reports/index.json --reporter-app-name='My App' --reporter-app-version='x.y.z'",
     "test:chrome:headless": "testcafe chrome:headless ./test --hostname 127.0.0.1 --skip-js-errors",
     "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./test --hostname 127.0.0.1 --skip-js-errors",
     "test:multiple": "testcafe chrome,firefox ./test --hostname 127.0.0.1 --skip-js-errors  --reporter html:C:/Users/Cristian Rodriguez/Documents/testCafe/testCafe/index.html",
