@@ -1,0 +1,11 @@
+npm install testcafe
+npm init
+npm install --save-dev xpath-to-css
+npm install testcafe-reporter-html<
+testcafe chrome ./test  --hostname 127.0.0.1
+testcafe chrome ./test  	
+
+--skip-js-errors
+
+
+    const texto =await Selector('h1').innerText
